@@ -6,12 +6,12 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  cats.shift(name)
+  cats.shift(name);
   return cats;
 }
 
 function destructivelyRemoveLastKitten(){
-
+  cats.
 }
 
 function destructivelyRemoveFirstKitten(){
