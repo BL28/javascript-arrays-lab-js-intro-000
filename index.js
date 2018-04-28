@@ -11,7 +11,8 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-  cats.
+  cats.pop(0,cats.length-1);
+  return cats;
 }
 
 function destructivelyRemoveFirstKitten(){
