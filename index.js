@@ -2,17 +2,17 @@ const app = "I don't do much."
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
-  return cats;
+  return kittens;
 }
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
-  return cats;
+  return kittens;
 }
 
 function destructivelyRemoveLastKitten(){
   kittens.pop();
-  return cats;
+  return kittens;
 }
 
 function destructivelyRemoveFirstKitten(){
@@ -20,11 +20,11 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  return [cats,...name];
+  return [kittens,...name];
 }
 
 function prependKitten(name){
-  return [cats,...name];
+  return [kittens,...name];
 }
 
 function removeLastKitten(){
